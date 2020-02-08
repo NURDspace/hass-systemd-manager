@@ -1,0 +1,13 @@
+{
+	"alias": "yoursystemname",
+	"hass": {
+		"autodiscovery": 1,
+		"autodiscoveryTopic": "homeassistant"
+	},
+	"mqtt": {
+		"host": "1.1.1.1",
+		"port": 1883
+	},
+	"basetopic": "systemd",
+	"services": ["ssh.service"]
+}
